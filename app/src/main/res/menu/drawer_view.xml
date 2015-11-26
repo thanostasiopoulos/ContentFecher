@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <group android:checkableBehavior="single">
+ 
+        <item
+            android:id="@+id/inbox"
+            android:checked="false"
+            android:icon="@drawable/icon_mypurchase5"
+            android:title="@string/app_name" />
+ 
+        <item
+            android:id="@+id/starred"
+            android:checked="false"
+            android:icon="@drawable/icon_mypurchase1"
+            android:title="@string/app_name" />
+ 
+        <item
+            android:id="@+id/sent_mail"
+            android:checked="false"
+            android:icon="@drawable/button_cart"
+            android:title="@string/app_name" />
+ 
+        <item
+            android:id="@+id/drafts"
+            android:checked="false"
+            android:icon="@drawable/test"
+            android:title="@string/app_name"
+            />
+ 
+ 
+        <item
+            android:id="@+id/allmail"
+            android:checked="false"
+            android:icon="@drawable/icon_back_arrow"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/trash"
+            android:checked="false"
+            android:icon="@drawable/icon_time"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/spam"
+            android:checked="false"
+            android:icon="@drawable/icon_mypurchase1"
+            android:title="@string/app_name" />
+ 
+    </group>
+</menu>

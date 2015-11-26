@@ -1,0 +1,42 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#FF4081</item>
+        
+    </style>
+    <style name="editext_normal" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">@dimen/txt_16sp</item>
+        <item name="android:ems">10</item>
+        <item name="android:drawablePadding">@dimen/pad_10dp</item>
+    </style>
+    
+    <style name="btn" parent="@android:style/Widget.Holo.Light.Button">
+        <item name="android:minWidth">1.0dip</item>
+        <item name="android:minHeight">1.0dip</item>
+    </style>
+    <style name="MyTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_drawer</item>
+    </style>
+    <style name="Theme.CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
